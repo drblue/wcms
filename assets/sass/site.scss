@@ -1,8 +1,43 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500');
-@import 'typography';
 @import 'variables';
+@import 'typography';
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.featured-image {
+	background-size: cover;
+	background-position: center center;
+	min-height: 350px;
+}
+
+.single {
+	&.no-featured-image {
+		article {
+			margin-top: 4em;
+		}
+	}
+}
 
 article {
+	&.with-featured-image {
+		header {
+			.the-title {
+				margin-top: 0.75em;
+			}
+		}
+	}
+
+	&.page {
+		header {
+			.the-title {
+				text-align: center;
+			}
+		}
+	}
+
 	header {
 		margin-bottom: 1.5em;
 
@@ -14,6 +49,35 @@ article {
 	main.the-content {
 		line-height: 180%;
 		text-align: justify;
+	}
+
+	.separator {
+		&:last-child {
+			display: none;
+		}
+	}
+
+	.separator:last-child {
+		display: none;
+	}
+}
+
+.blog,
+.archive {
+	article {
+		border-bottom: 1px solid $lightest-grey;
+		margin: 2em 0;
+		padding-bottom: 1em;
+	}
+}
+
+.btn-primary {
+	background-color: $universe-blue;
+	border-color: rgba(0, 0, 0, 0.1);
+
+	&:hover {
+		background-color: $universe-blue-darker;
+		border-color: rgba(0, 0, 0, 0.1);
 	}
 }
 
@@ -42,4 +106,31 @@ article {
 		margin: 1.5em 0;
 		padding-bottom: 1.5em;
 	}
+}
+
+/*
+.container,
+.container-fluid {
+	background-color: #5f5;
+}
+
+.row {
+	background-color: #ff5;
+}
+
+*[class^='col-'] {
+	background-color: #5f5;
+
+	&:nth-child(odd) {
+		background-color: #f55;
+	}
+
+	&:nth-child(even) {
+		background-color: #55f;
+	}
+}
+*/
+
+#top-search-form {
+	display: none;
 }

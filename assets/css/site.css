@@ -3,6 +3,34 @@ body {
   font-family: 'Raleway', 'Roboto', 'Droid', 'Open Sans', 'Arial', sans-serif;
   font-weight: 300; }
 
+.navbar .navbar-brand {
+  font-weight: 400; }
+.navbar a {
+  color: #555; }
+  .navbar a:hover {
+    color: #222; }
+
+a {
+  color: #0b8eae; }
+  a:hover {
+    color: #08677e; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.featured-image {
+  background-size: cover;
+  background-position: center center;
+  min-height: 350px; }
+
+.single.no-featured-image article {
+  margin-top: 4em; }
+
+article.with-featured-image header .the-title {
+  margin-top: 0.75em; }
+article.page header .the-title {
+  text-align: center; }
 article header {
   margin-bottom: 1.5em; }
   article header .the-title {
@@ -10,6 +38,23 @@ article header {
 article main.the-content {
   line-height: 180%;
   text-align: justify; }
+article .separator:last-child {
+  display: none; }
+article .separator:last-child {
+  display: none; }
+
+.blog article,
+.archive article {
+  border-bottom: 1px solid #eee;
+  margin: 2em 0;
+  padding-bottom: 1em; }
+
+.btn-primary {
+  background-color: #0eb5de;
+  border-color: rgba(0, 0, 0, 0.1); }
+  .btn-primary:hover {
+    background-color: #0b8eae;
+    border-color: rgba(0, 0, 0, 0.1); }
 
 .site-footer {
   margin-top: 2em;
@@ -27,3 +72,28 @@ article main.the-content {
   .sidebar .widget h2 {
     font-size: 1.25em;
     margin-bottom: 0.75em; }
+
+/*
+.container,
+.container-fluid {
+	background-color: #5f5;
+}
+
+.row {
+	background-color: #ff5;
+}
+
+*[class^='col-'] {
+	background-color: #5f5;
+
+	&:nth-child(odd) {
+		background-color: #f55;
+	}
+
+	&:nth-child(even) {
+		background-color: #55f;
+	}
+}
+*/
+#top-search-form {
+  display: none; }

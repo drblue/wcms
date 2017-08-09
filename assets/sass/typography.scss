@@ -2,3 +2,25 @@ body {
 	font-family: 'Raleway', 'Roboto', 'Droid', 'Open Sans', 'Arial', sans-serif;
 	font-weight: 300;
 }
+
+.navbar {
+	.navbar-brand {
+		font-weight: 400;
+	}
+
+	a {
+		color: $grey;
+
+		&:hover {
+			color: $darker-grey;
+		}
+	}
+}
+
+a {
+	color: $universe-blue-darker;
+
+	&:hover {
+		color: darken($universe-blue-darker, 10%);
+	}
+}

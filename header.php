@@ -14,7 +14,7 @@
 <body <?php echo body_class(); ?>>
 
 	<div class="navbar-wrapper">
-		<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+		<nav class="navbar navbar-toggleable-md navbar-light">
 			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -34,6 +34,15 @@
 						'walker'				=> new bootstrap_4_walker_nav_menu(),
 					));
 				?>
+
+				<!-- search form -->
+				<form id="top-search-form" role="search" method="get" class="search-form form-inline my-2 my-lg-0" action="<?php echo esc_url( home_url( '/' ) ); ?>">
+					<input type="search" id="" class="search-field form-control mr-sm-2" placeholder="<?php echo esc_attr_x( 'Search &hellip;', 'placeholder', 'twentyseventeen' ); ?>" value="<?php echo get_search_query(); ?>" name="s" />
+				</form>
+
+				<!-- search -->
+				<button id="top-search-button" class="btn btn-outline-success my-2 my-sm-0"><span class="fa fa-search"></span></button>
+				<!-- /search -->
 
 			</div><!-- /.container -->
 		</nav>
