@@ -1,0 +1,61 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WCMS WordPress Theme\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2017-03-29 13:59+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Johan Nordström <johan@digitalvillage.se>\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.0\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: category.php:9
+msgid "Category:"
+msgstr "Kategori:"
+
+#: category.php:11
+msgid "Showing posts from the category"
+msgstr "Visar inlägg från kategorin"
+
+#: category.php:30
+msgid "Sorry, could not find any posts in that category *much sorry*"
+msgstr "Ledsen, kunde inte hitta några inlägg i den kategorin *väldigt ledsen*"
+
+#: home.php:26 index.php:26
+msgid "Sorry, could not find any posts for you *much sorry*"
+msgstr "Ledsen, kunde inte hitta några inlägg *mycket ledsen*"
+
+#: includes/wcms-filters.php:11
+msgid "Read More"
+msgstr "Laes mer"
+
+#: includes/wcms-setup.php:17
+msgid "Header Menu"
+msgstr "Huvudmeny"
+
+#: page-fullwidth.php:15 page.php:15
+msgid "Sorry, could not find that page for you *sad face*"
+msgstr "Ledsen, kunde inte hitta den där sidan *ledset ansikte*"
+
+#: search.php:35
+msgid "Sorry, could not find anything matching your search query *very sad*"
+msgstr ""
+"Tyvärr, kunde inte hitta något som matchade det du sökte på *mycket ledsen*"
+
+#: single.php:15
+msgid "Sorry, could not find that post for you *sad face*"
+msgstr "Tyvärr, kunde inte hitta det där inlägget *ledsen*"
